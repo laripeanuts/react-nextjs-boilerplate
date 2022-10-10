@@ -25,9 +25,9 @@
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/prop-types": "off",
+    "react/w-types": "off",
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "no-unused-vars": "warn"
+    "@typescript-eslint/no-unused-vars": "warn"
   }
 }
