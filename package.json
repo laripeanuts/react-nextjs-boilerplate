@@ -11,10 +11,15 @@
     "test:watch": "jest --watch",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*": [
       "pnpm run lint -- --fix",
-      "pnpm run test:watch -- --bail"
+      "pnpm run test --bail"
     ]
   },
   "dependencies": {
