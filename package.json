@@ -11,7 +11,7 @@
     "test:watch": "jest --watch --maxWorkers=25%",
     "prepare": "husky install",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s ./public"
   },
   "husky": {
     "hooks": {
