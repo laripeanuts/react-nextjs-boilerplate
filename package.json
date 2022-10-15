@@ -9,6 +9,7 @@
     "lint": "next lint",
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
+    "generate": "plop --plopfile ./generators/plopfile.js",
     "prepare": "husky install",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public"
@@ -70,6 +71,7 @@
     "jest-environment-jsdom": "^29.1.2",
     "jest-styled-components": "^7.1.1",
     "lint-staged": "^13.0.3",
+    "plop": "^3.1.1",
     "prettier": "2.7.1",
     "storybook": "^6.5.12",
     "storybook-addon-next-router": "^4.0.1",
