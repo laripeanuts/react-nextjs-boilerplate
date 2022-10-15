@@ -15,6 +15,10 @@ This project uses lot of stuff as:
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [Lint Staged](https://github.com/okonet/lint-staged)
+- [Commitlint](https://commitlint.js.org/#/)
+- [Plop](https://plopjs.com/)
+- [Pnpm](https://pnpm.js.org/)
 
 ## Getting Started
 
