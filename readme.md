@@ -17,6 +17,7 @@ This project uses lot of stuff as:
 - [Husky](https://github.com/typicode/husky)
 - [Lint Staged](https://github.com/okonet/lint-staged)
 - [Commitlint](https://commitlint.js.org/#/)
+- [Commitzen](https://github.com/commitizen/cz-cli)
 - [Plop](https://plopjs.com/)
 - [Pnpm](https://pnpm.js.org/)
 
