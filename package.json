@@ -15,11 +15,6 @@
     "build-storybook": "build-storybook -s ./public",
     "commit": "git-cz"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --fix"
