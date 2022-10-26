@@ -7,11 +7,11 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
-const withPWA = require("next-pwa");
+// const withPWA = require("next-pwa");
 
-module.exports = withPWA({
-  pwa: {
-    dest: "public",
-    disable: process.env.NODE_ENV !== "development"
-  }
-});
+// module.exports = withPWA({
+//   pwa: {
+//     dest: "public",
+//     disable: process.env.NODE_ENV !== "development"
+//   }
+// });
