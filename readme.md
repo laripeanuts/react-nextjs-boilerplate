@@ -1,4 +1,3 @@
-
 This is a [Next.js](https://nextjs.org/) boilerplate.
 ![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
 

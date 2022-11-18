@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "prettier": "prettier --write .",
+    "format": "prettier --write . && next lint --fix",
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
     "generate": "plop --plopfile ./generators/plopfile.js",
@@ -18,11 +21,11 @@
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
-      "eslint --fix"
+      "format"
     ]
   },
   "dependencies": {
-    "next": "13.0.0",
+    "next": "13.0.4",
     "next-pwa": "^5.6.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -54,12 +57,12 @@
     "@types/testing-library__jest-dom": "^5.14.5",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
-    "babel-loader": "^8.2.3",
+    "babel-loader": "^9.1.0",
     "babel-plugin-styled-components": "^2.0.7",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "8.25.0",
-    "eslint-config-next": "13.0.0",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin": "^1.0.1",
     "eslint-plugin-prettier": "^4.2.1",
@@ -75,7 +78,7 @@
     "prettier": "2.7.1",
     "storybook": "^6.5.13",
     "storybook-addon-next-router": "^4.0.1",
-    "typescript": "4.8.4"
+    "typescript": "4.9.3"
   },
   "config": {
     "commitizen": {

@@ -1,4 +1,4 @@
-import { themes } from '@storybook/theming';
+import { themes } from "@storybook/theming";
 import { GlobalStyle } from "../src/styles/global";
 
 export const decorators = [
@@ -7,7 +7,7 @@ export const decorators = [
       <GlobalStyle />
       <Story />
     </>
-  ),
+  )
 ];
 
 export const parameters = {
@@ -15,10 +15,10 @@ export const parameters = {
   controls: {
     matchers: {
       color: /(background|color)$/i,
-      date: /Date$/,
-    },
+      date: /Date$/
+    }
   },
   docs: {
-    theme: themes.dark,
+    theme: themes.dark
   }
-}
+};
