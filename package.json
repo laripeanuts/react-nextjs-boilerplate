@@ -20,8 +20,8 @@
     "commit": "git-cz"
   },
   "lint-staged": {
-    "*.{js,ts,tsx}": [
-      "format"
+    "src/pages/*.{js,jsx,ts,tsx}": [
+      "pnpm run lint:fix"
     ]
   },
   "dependencies": {
