@@ -2,13 +2,8 @@
 
 exports[`<Main /> should render the heading 1`] = `
 <main
-  class="styles__Wrapper-sc-dzx1ao-0 foNsfX"
+  class="styles__Container-sc-dzx1ao-0 gvpDUx"
 >
-  <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
-    class="styles__Logo-sc-dzx1ao-1 fYienS"
-    src="/assets/logo.svg"
-  />
   <h1
     class="styles__Title-sc-dzx1ao-2 igfAWE"
   >

@@ -1,6 +1,6 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
 
-npx --no-install lint-staged
-pnpm run format
+pnpm run prettier
+pnpm run lint:fix
 pnpm run test

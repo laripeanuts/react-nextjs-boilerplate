@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Container, Description, Illustration, Logo, Title } from "./styles";
+import { Container, Description, Illustration, Title } from "./styles";
 
 export const Main = ({
   title = "NextJS Boilerplate",

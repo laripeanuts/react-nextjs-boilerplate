@@ -8,6 +8,10 @@
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "next": {
+      "version": "latest",
+      "rootDir": "./src"
     }
   },
   "extends": [
@@ -15,7 +19,8 @@
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "next"
   ],
   "overrides": [],
   "parser": "@typescript-eslint/parser",
