@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.main`
-  background-color: #06092b;
-  min-height: 100vh;
+export const Container = styled.main`
+  background: #06092b;
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
   color: #fff;
   text-align: center;
   display: flex;
